@@ -4,31 +4,32 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace dip_proj
 {
-    public partial class Authorization : Form
+    public partial class Goods_adm : Form
     {
-        public Authorization()
+        public Goods_adm()
         {
             InitializeComponent();
         }
 
-        private void Enter_btn_Click(object sender, EventArgs e)
+        private void user_MenuItem_Click(object sender, EventArgs e)
         {
-            Orders order_frm = new Orders();
+            Users usr_frm = new Users();    
             this.Hide();
-            order_frm.Show();
+            usr_frm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void note_MenuItem_Click(object sender, EventArgs e)
         {
-            Goods_adm gds_frm = new Goods_adm();    
+            Notes note_frm = new Notes();   
             this.Hide();
-            gds_frm.Show();
+            note_frm.Show();
         }
     }
 }

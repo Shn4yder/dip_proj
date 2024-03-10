@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace dip_proj
 {
-    public partial class Authorization : Form
+    public partial class Users : Form
     {
-        public Authorization()
+        public Users()
         {
             InitializeComponent();
         }
 
-        private void Enter_btn_Click(object sender, EventArgs e)
+        private void good_MenuItem_Click(object sender, EventArgs e)
         {
-            Orders order_frm = new Orders();
-            this.Hide();
-            order_frm.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Goods_adm gds_frm = new Goods_adm();    
+            Goods_adm gds_frm  = new Goods_adm();
             this.Hide();
             gds_frm.Show();
+        }
+
+        private void note_MenuItem_Click(object sender, EventArgs e)
+        {
+            Notes notes = new Notes();
+            this.Hide();
+            notes.Show();
         }
     }
 }
