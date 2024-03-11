@@ -30,5 +30,11 @@ namespace dip_proj
             this.Hide();
             notes.Show();
         }
+
+        private void Add_btn_Click(object sender, EventArgs e)
+        {
+            AddUser add_frm = new AddUser();
+            add_frm.Show();
+        }
     }
 }

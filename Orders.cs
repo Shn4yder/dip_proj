@@ -30,5 +30,11 @@ namespace dip_proj
             this.Hide();
             note_frm.Show();
         }
+
+        private void Add_btn_Click(object sender, EventArgs e)
+        {
+            AddOrder add_form = new AddOrder();
+            add_form.Show();
+        }
     }
 }

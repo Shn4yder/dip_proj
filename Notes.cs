@@ -30,5 +30,11 @@ namespace dip_proj
             this.Hide();
             gds_ord.Show();
         }
+
+        private void Add_btn_Click(object sender, EventArgs e)
+        {
+            AddNote add_frm = new AddNote();
+            add_frm.Show();
+        }
     }
 }

@@ -31,5 +31,11 @@ namespace dip_proj
             this.Hide();
             note_frm.Show();
         }
+
+        private void Add_btn_Click(object sender, EventArgs e)
+        {
+            AddGood add_frm = new AddGood();    
+            add_frm.Show();
+        }
     }
 }

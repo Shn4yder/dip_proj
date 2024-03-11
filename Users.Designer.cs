@@ -54,6 +54,7 @@
             this.Add_btn.TabIndex = 1;
             this.Add_btn.Text = "+  Создать    ";
             this.Add_btn.UseVisualStyleBackColor = true;
+            this.Add_btn.Click += new System.EventHandler(this.Add_btn_Click);
             // 
             // menuStrip1
             // 

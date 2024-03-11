@@ -86,6 +86,7 @@
             this.Add_btn.TabIndex = 3;
             this.Add_btn.Text = "+  Cоздать";
             this.Add_btn.UseVisualStyleBackColor = true;
+            this.Add_btn.Click += new System.EventHandler(this.Add_btn_Click);
             // 
             // Notes
             // 
